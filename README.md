@@ -1,17 +1,21 @@
-# Libretro Super Repository
+# 此仓库仅用作编译 FBNeo 核心
 
-Fetch, build and install a number of [libretro](http://www.libretro.com/) projects.
+## 编译指南
 
-## Dependencies
+1.使用 MSYS2 配置编译环境
 
-See the [Compilation](https://github.com/libretro/RetroArch/wiki#compilation) notes for prerequisites.
+2.编译 FBNeo 核心无需安装 Qt 库和 Nvidia CG 库
 
-## Usage
+3.仅同步 FBNeo 核心代码和依赖项即可，其他内如无需同步
 
-### Download and Build
+## 参考官方文档
 
-    make
+https://docs.libretro.com/development/retroarch/compilation/windows/
 
-### Install
+## 下载
 
-    make install
+    ./libretro-fetch.sh fbneo
+
+## 编译
+
+    ./libretro-build.sh fbneo
