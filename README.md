@@ -8,10 +8,6 @@
 
 3.仅同步 FBNeo 核心代码和依赖项即可，其他内容无需同步
 
-## 参考官方文档
-
-https://docs.libretro.com/development/retroarch/compilation/windows/
-
 ## 下载
 
     ./libretro-fetch.sh fbneo
@@ -19,3 +15,11 @@ https://docs.libretro.com/development/retroarch/compilation/windows/
 ## 编译
 
     ./libretro-build.sh fbneo
+
+## 参考官方文档
+
+https://docs.libretro.com/development/retroarch/compilation/windows/
+
+## 配套 ROM 下载
+
+https://archive.org/details/2020_01_06_fbn
