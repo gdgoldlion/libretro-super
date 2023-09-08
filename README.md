@@ -14,7 +14,12 @@
 
 ## 编译
 
-    ./libretro-build.sh fbneo
+参考如下脚本，强制删除 burn.o，因为编译脚本存在 bug，文件不更新
+
+    rm -f ./libretro-super/libretro-fbneo/src/burn/burn.o
+    cd  ./libretro-super/libretro-fbneo/src/burner/libretro
+    make -f makefile -j8
+    mv fbneo_libretro.dll "./target"
 
 ## 参考官方文档
 
